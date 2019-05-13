@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="RecorderTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground"> @drawable/backgroundsplash</item>
+
+    </style>
+
+    <style name="NoteTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/notecolorPrimary</item>
+        <item name="colorPrimaryDark">@color/notecolorPrimaryDark</item>
+        <item name="colorAccent">@color/notecolorAccent</item>
+    </style>
+
+    <style name="TodoTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/notecolorPrimary</item>
+        <item name="colorPrimaryDark">@color/notecolorPrimaryDark</item>
+        <item name="colorAccent">@color/notecolorAccent</item>
+    </style>
+
+
+
+</resources>
